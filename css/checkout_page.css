@@ -1,0 +1,57 @@
+#header {
+    width: screen;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background: yellow;
+}
+#home_button{
+    width:100px;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+#h{
+    font-family: sans-serif;
+    font-size: 24pt;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#login_button{
+    width: 100px;
+    height: 100px;
+    margin:0;
+    padding:0;
+    float:right;
+}
+#checkout_button{
+    width:100px;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+#page-container{
+    width:screen;
+}
+#items-box{
+    width: 700px;
+    height: 700px;
+    margin: 1px;
+    padding:1px;
+    background-color: grey;
+    float:left;
+    border-color: black;
+    border: 2px;
+}
+#checkout-button{
+    float:right;
+    width:200px;
+    height:100px;
+    background-color: yellow;
+}
+a{
+    align-content: center;
+}
