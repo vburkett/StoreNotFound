@@ -1,0 +1,58 @@
+#header {
+    width: screen;
+    height: 100px;
+    display:flex;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40pt;
+    font-weight: 100;
+    background: yellow;
+}
+#home_button{
+    width:100px;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+#h{
+    float:left;
+}
+#login_button{
+    width: 100px;
+    height: 100px;
+    margin:0;
+    padding:0;
+    float:right;
+}
+#checkout_button{
+    width:100px;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+#page-container{
+    width:screen;
+}
+#items-box{
+    width: 700px;
+    height: 700px;
+    margin: 1px;
+    padding:1px;
+    background-color: grey;
+    float:left;
+    border-color: black;
+    border: 2px;
+}
+#checkout-button{
+    float:right;
+    width:200px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: yellow;
+}
