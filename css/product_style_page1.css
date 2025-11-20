@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(211,206,206);
+}
+#header {
+    width: screen;
+    height: 100px;
+    display:flex;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40pt;
+    font-weight: 100;
+    background: yellow;
+}
+#home_button{
+    width:100px;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+#h{
+    float:left;
+}
+#login_button{
+    width: 100px;
+    height: 100px;
+    margin:0;
+    padding:0;
+    float:right;
+}
+#checkout_button{
+    width:100px;
+    height:100px;
+    margin: 0;
+    padding: 0;
+    float:right;
+}
+#page-container{
+    width:screen;
+    height: 800px;
+    margin: 50px;
+    background-color: rgb(119, 115, 115);
+}
+#productphoto{
+    width: 700px;
+    height: 800px;
+    margin:0;
+    padding:0;
+    float:left;
+    background-color: green;
+}
+#productname{
+    background-color: rgb(116, 5, 133);
+    width: 600px;
+    height: 125px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top:  50px;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: 100;
+    float:right;
+}
+#productdescription{
+    background-color: aliceblue;
+    width: 590px;
+    height: 575px;
+    Padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    text-indent: 30px;
+    float:right;
+}
+#p{
+    text-align: left;
+}

@@ -1,3 +1,6 @@
+body{
+    background-color: rgb (211,206,206);
+}
 #header {
     width: screen;
     height: 100px;
