@@ -43,6 +43,7 @@ body{
 #welcome_banner{
     width:screen;
     height: 250px;
+    margin-bottom: 50px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -53,4 +54,109 @@ body{
 }
 h1{
     color:rgb(1, 7, 13);
+}
+#Product1{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(116,5,133);
+    float:left;
+}
+#product1thumbnail{
+    width: 300px;
+    height: 300px;
+    float:top;
+    background-color: green;
+}
+#Product2{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(116,5,133);
+    float:left;
+}
+#product2thumbnail{
+    width:300px;
+    height:300px;
+    float:top;
+    background-color: green;
+}
+#Product3{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(116,5,133);
+    float:left;
+}
+#product3thumbnail{
+    width:300px;
+    height:300px;
+    float:top;
+    background-color: green;
+}
+#Product4{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(116,5,133);
+    float:left;
+}
+#product4thumbnail{
+    width:300px;
+    height: 300px;
+    float:top;
+    background-color: green;
+}
+#Product5{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(116,5,133);
+    float:left;
+}
+#product5thumbnail{
+    width:300px;
+    height:300px;
+    float:top;
+    background-color: green;
+}
+#Product6{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(116,5,133);
+    float:left;
+}
+#product6thumbnail{
+    width:300px;
+    height:300px;
+    float:top;
+    background-color: green;
+}
+.clicklink{
+    width: 300px;
+    height:400px;
+    float:bottom;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+a{
+    height: 100px;
+    color: black;
+}
+a:hover{
+    color:rgb(144, 0, 0)
+}
+a:active{
+    color:yellow
 }
