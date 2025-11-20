@@ -66,6 +66,7 @@ h1{
 #product1thumbnail{
     width: 300px;
     height: 300px;
+    padding:0;
     float:top;
     background-color: green;
 }
