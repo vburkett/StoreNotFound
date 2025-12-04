@@ -5,23 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <title>Login</title>
-    <link rel="stylesheet" href="Loginpage.css"/>
+
+    <style type="text/css" media="all">@import "css/Loginpage.css";</style>
+
   </head>
   <body>
-    <button id="openModal">Open Modal</button>
+    <div id="header">
+        <div id="home_button">
+            <a href="main_page.html"><img src="images/Mc Jankler Shitty Website Logo.png" alt="StoreIcon"></a>
+        </div>
+        <h>StoreNotFound</h>
+        <div id="checkout_button">
+            <a href="checkout_page.html"><img src="images/Clown Car Checkout Image.png" alt="CheckoutIcon"></a>
+    </div>
+    <button id="openModal"><img src="images/Login Button.png"></button>
 
       <div class="modal" id="modal">
         <div class="modal-inner">
           <p hidden id ="logText"> You put Log in</p>
           <div id="left">
-            <div class="list" draggable="true"><img src="Log_PNG_Clipart.png">Log1</div>
+            <div class="list" draggable="true"><img src="images/Login Button.png"></div>
           </div>
           <div id="right"></div>
 
           <button id="closeModal">Close</button>
         </div>
       </div>
-
+    <div id="crontent">
+      <p>&lt;- Click the Log to Login!</p>
+    </div>
   </body>
   <script src="Loginpage.js"></script>
   <script>
