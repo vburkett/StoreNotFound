@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+ Sound effect on button press.
+<button id="btn" onclick="audio.play();">Test</button>
+//background music
+<audio autoplay loop id="song"> <source src="circus-theme-song-made-with-Voicemod.mp3"></audio>
+<script> 
+    //Sound effect on button press.
+    const audio = new Audio();
+    audio.src = "good for the ghost - Alge.mp3";
+    //background music
+        window.addEventListener('click', () => {
+        document.getElementById("song").play();
+        document.getElementById("song").loop();
+        
+    });
+</script>
+</body>
+
+</html>
