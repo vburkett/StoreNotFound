@@ -36,6 +36,7 @@ button:active{
 .modal-inner {
     background-color: #181616;
     border-radius: 5px;
+    border-color: aqua;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 1500px 2500px;
     text-align: center;
@@ -45,7 +46,7 @@ button:active{
     width: 100px;
     min-height: 200px;
     margin: 20px;
-    border: 2px dashed #000000;
+    border: 2px dashed #ff9797;
     float: left;
 }
 .modal-inner .list{
