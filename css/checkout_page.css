@@ -52,10 +52,12 @@ body{
 }
 #checkout-button{
     float:right;
-    width:200px;
+    width:100px;
     height:100px;
     display:flex;
     align-items:center;
     justify-content: center;
-    background-color: yellow;
+    background-color: orange;
+    margin-top: 10px;
+    margin-right: 10px;
 }
