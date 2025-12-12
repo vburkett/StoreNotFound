@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Form.css">
+    <style type="text/css" media="all">@import "css/product_style_page1.css";</style>
+</head>
+<body>
+    <div id="header">
+        <div id="home_button">
+            <a href="index.html"><img src="images/Mc Jankler Shitty Website Logo.png" alt="StoreIcon"></a>
+        </div>
+        <h>StoreNotFound</h>
+        <div id="login_button">
+            <a href="Loginpage.html"><img src="images/Login Button.png" alt="LoginIcon"></a>
+        </div>
+        <div id="checkout_button">
+            <a href="checkout_page.html"><img src="images/Clown Car Checkout Image.png" alt="CheckoutIcon"></a>
+        </div>
+        <div id="From_button">
+            <a href="Form.html">Form</a>
+        </div>
+    </div> 
+    <div id="page-container">
+        <div id="welcome_banner">
+            <h1>What item would you like to add to the store</h1>
+        </div>
+        <br>
+    
+    <form action="php/Form.php" method="post">
+        <div>
+            <label for="fname"> first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="John" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname"> last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Mc.Jankler" required>
+        </div>
+
+        <br> 
+
+        <div>
+            <label for="SB"> Suggestion Box</label>
+            <input type="text" id="SB" name="SB" placeholder="Thermal nuclear bombs">
+        </div>
+
+        <div> 
+            <input type="reset">
+        </div>
+
+        <div>
+            <button id="submit" type="submit" onclick="showImage()">Submit</button>
+        </div>
+            <img id="myImg" src="images/PS.png" width="400px" style ="display:none;">
+    </form>
+</body>
+<script>
+    const submit = document.querySelector("#submit");
+    const myImg = document.querySelector("#myImg");
+
+    function showImage(){
+        document.getElementById("myImg").style.display = "block";
+        Shredder.play();
+    }
+</script>
+<audio autoplay loop id="song"> <source src="audio/circus-theme-song-made-with-Voicemod.mp3"></audio>
+<audio autoplay id="pan"> <source src="audio/melee_frying_pan_01.mp3"></audio>
+<script> 
+    //background music
+        window.addEventListener('click', () => {
+        document.getElementById("pan").play();
+        document.getElementById("song").play();
+        document.getElementById("song").loop();
+    });
+</script>
+</html>

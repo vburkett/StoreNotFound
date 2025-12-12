@@ -19,6 +19,9 @@
         <div id="checkout_button">
             <a href="checkout_page.html"><img src="images/Clown Car Checkout Image.png" alt="CheckoutIcon"></a>
         </div>
+         <div id="From_button">
+            <a href="Form.html">Form</a>
+        </div>
     </div>
     <div id="page-container">
         <div id="productphoto"></div>
@@ -28,4 +31,14 @@
         <div id="productdescription"></div>
     </div>
 </body>
+<audio autoplay loop id="song"> <source src="audio/circus-theme-song-made-with-Voicemod.mp3"></audio>
+<audio autoplay id="pan"> <source src="audio/melee_frying_pan_01.mp3"></audio>
+<script> 
+    //background music
+        window.addEventListener('click', () => {
+        document.getElementById("pan").play();
+        document.getElementById("song").play();
+        document.getElementById("song").loop();
+    });
+</script>
 </html>
